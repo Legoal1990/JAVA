@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class sustraer{
+	public static void main(String args[]){
+		Scanner entrada=new Scanner(System.in);
+		String cadena="";
+		int parte=0;
+		System.out.println("Escriba una cadena de caracteres");
+		cadena=entrada.nextLine();
+
+		System.out.println("La cadena contiene:"+length(cadena)+"caracteres");
+
+		System.out.println("Que parte de la cadena desea obtener");
+		parte=entrada.nextInt();
+
+		System.out.print("La cadena solicitada es:" +substring(cadena));
+	}
+}

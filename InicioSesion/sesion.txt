@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class sesion{
+	public static void main(String args[]){
+		Scanner entrada=new Scanner(System.in);
+		String usuario="Legoal", contraseña="Macuspana123";
+		String user="", pass="";
+	
+	System.out.println("Por favor ingresa el usuario:");
+	user=entrada.nextLine();	
+	
+	if(user.equals(usuario){
+		System.out.println("Por favor ingresa la contraseña);
+		pass=entrada.nextLine();
+		if(pass.equals(contraseña)){
+			System.out.println("Acceso correcto");
+		}else{
+			System.out.println("La contraseña es incorrecta");
+		}
+	}else{
+		System.out.println("El usuario no existe");
+	}
+            }
+}

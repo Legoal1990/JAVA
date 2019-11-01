@@ -1,0 +1,22 @@
+import java.util.Scanner();
+
+public class Dynamic{
+	Scanner entrada=new Scanner(System.in);
+	int longitudVector=0;
+	int valor=0;
+
+	System.out.println("Introduce el tamaño del vector que deseas:");
+	longitudVector=entrada.nextInt();
+	
+	int vector[]=new int[longitudVector];
+	
+	for(int i=0; i<longitudVector; i++){
+		System.out.println("Introduce el valor para la posición vector["+i+"]");
+		valor=entrada.nextInt(),
+		vector[i]=valor;
+	}
+	
+	for(int i=0; i<longitudVector; i++){
+		System.out.print("["+vector[i] +"],");
+	}
+}

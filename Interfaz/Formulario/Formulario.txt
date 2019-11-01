@@ -1,0 +1,15 @@
+import javax.swing.*; //Importando todos los elementos de la libería swing
+
+public class Formulario extends JFrame{ //heredamos la clase JFrame a la clase Formulario
+	
+	public Formulario(){  //Costructor contiene elementos que voy a poner en mi interfaz
+		setLayout(null); //metodo para indicar al programa que usaremos coordenadas para colocar la intefaz le decimos que no haga nada al colocar null y que espere la instruccion sino lo colocara donde quiera la interfaz		
+	}
+
+	public static void main(String args[]){
+		Formulario formulario1=new Formulario();
+		formulario1=setBounds(0, 0, 400, 550);
+		formulario1=setVisible(true);
+	}
+}
+

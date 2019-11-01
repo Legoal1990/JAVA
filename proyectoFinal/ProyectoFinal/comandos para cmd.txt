@@ -1,0 +1,11 @@
+C:\Users\Propietario\Documents\JAVA\proyectoFinal\ProyectoFinal>jar cvfm Sistema.jar manifest.mf Bienvenida.class Licencia.class PantallaPrincipal.class images/coca-cola.png images/icon.png images/logo-coca.png images/coca-cola-blanco.png
+added manifest
+adding: Bienvenida.class(in = 3408) (out= 1894)(deflated 44%)
+adding: Licencia.class(in = 4146) (out= 2153)(deflated 48%)
+adding: PantallaPrincipal.class(in = 9790) (out= 4533)(deflated 53%)
+adding: images/coca-cola.png(in = 23105) (out= 22507)(deflated 2%)
+adding: images/icon.png(in = 43228) (out= 41899)(deflated 3%)
+adding: images/logo-coca.png(in = 32249) (out= 31677)(deflated 1%)
+adding: images/coca-cola-blanco.png(in = 39976) (out= 36283)(deflated 9%)
+
+C:\Users\Propietario\Documents\JAVA\proyectoFinal\ProyectoFinal>java -jar Sistema.jar
